@@ -5,11 +5,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Date: Ago 18-2021
+ * Date: Ago 23-2021
  * This is a simple application for...
- * @author Wilson León
- * @author ACER
- * @author ACER
+ * @author WilsonLeon97
+ * @author DiegoGera
+ * @author yl13th
  * @version 1.0
  *
  */
@@ -19,7 +19,7 @@ public class Funciones {
 	final String message = "Sogamoso ciudad del sol y del acero";
 	
 	/**
-	 * This method 
+	 * This method Convert the content of the string to its own name
 	 * @return
 	 */
 	public String Convert() {
@@ -35,6 +35,7 @@ public class Funciones {
 	}
 	
 	/**
+	 * method that looks for Character string
 	 * @param buscarrepeticion
 	 * @return
 	 */
@@ -51,6 +52,7 @@ public class Funciones {
 	}
 	
 	/**
+	 * Method that encrypts the string
 	 * @param encriptar
 	 * @return
 	 */
@@ -69,6 +71,7 @@ public class Funciones {
 
 
 	/**
+	 * Method that decrypts the string
 	 * @param mms
 	 * @return
 	 */
@@ -84,6 +87,7 @@ public class Funciones {
 	}
 	
 	/**
+	 * Method that adds characters to the left or right
 	 * @param caracter1
 	 * @param cantidad
 	 * @param operacion
@@ -107,6 +111,7 @@ public class Funciones {
 	}
 	
 	/**
+	 * Method that deletes characters entered by keyboard
 	 * @param caracter1
 	 * @return
 	 */
