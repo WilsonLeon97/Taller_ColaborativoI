@@ -149,7 +149,7 @@ public class Funciones {
 	}
 	
 	/**
-	 * @param cadena
+	 * @param cadena 
 	 * @return
 	 */
 	public String diferencia(String cadena) {
@@ -165,6 +165,7 @@ public class Funciones {
 	}
 	
 	/**
+	 * 
 	 * @param cadena
 	 * @return
 	 */
